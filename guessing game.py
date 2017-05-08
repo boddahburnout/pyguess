@@ -5,6 +5,7 @@ lowval = int(input("Lowest value: "))
 highval = int(input("Highest value: "))
 answer = randint(lowval, highval)
 while not found:
+    print ("Guess a number "+ str(lowval) +"-"+ str(highval))
     guess = int(input("Guess: "))
     tries = tries + 1
     if guess == answer:
