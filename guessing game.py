@@ -26,4 +26,3 @@ while not found:
             print (str(guess)+" is greater then "+ str(highval)+" Duh")
     else:
         print ("Wrong")
-            
